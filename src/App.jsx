@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -33,3 +34,23 @@ function App() {
 }
 
 export default App
+=======
+import MainContent from './components/MainContent';
+import logo from './assets/images/logo.png';
+
+function App() {
+  return (
+    <>
+      <header>
+        <div id="logo-img">
+          <img src={logo} />
+        </div>
+        <h1>Learn & Master GitHub Actions</h1>
+      </header>
+      <MainContent />
+    </>
+  );
+}
+
+export default App;
+>>>>>>> ddc905a82ba8b887c976b20dd315138add49762a
